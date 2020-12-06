@@ -17,7 +17,7 @@
             <h1>Shopping List</h1>
         </header>
         
-        <form method="post" action="register">
+        <form method="post" action="ShoppingList">
             <label for="username">Username: </label>
             <input type="hidden" name="action" value="register">
             <input type="text" name="username" value="${username}">
